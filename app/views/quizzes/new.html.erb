@@ -1,0 +1,10 @@
+<div class="booyah-box col-10 offset-1">  
+  <h1 class="headline">this is the quiz No 2</h1>
+  <h2 class="text-center">enter your information to directory</h2>
+  <%= simple_form_for @quiz do |f| %>
+  <%= f.input :name %>
+  <%= f.input :number %>
+  <%= f.input :email %>
+  <%= f.submit 'Add', class: 'btn btn-success' %>
+<% end %>
+</div>
